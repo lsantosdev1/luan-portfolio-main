@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Seus estilos personalizados abaixo */
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #22c55e;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #4ade80;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #16a34a;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #22c55e;
+}
+html {
+  scroll-behavior: smooth;
+}
