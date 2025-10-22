@@ -88,4 +88,4 @@ Para adaptar este portfólio com suas próprias informações, siga estas orient
 
 - **Email**: [lsantos2152@gmail.com](mailto:lsantos2152@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/luan-santos-8092b721a/](https://www.linkedin.com/in/1luansantosdev/)
-- **GitHub**: [@luanjob](https://github.com/luanjob)
+- **GitHub**: [@luanjob](https://github.com/lsantosdev1)
