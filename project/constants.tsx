@@ -1,3 +1,4 @@
+import { link } from 'fs';
 import React from 'react';
 
 // Navigation Links
@@ -48,21 +49,24 @@ export const PROJECTS = [
   {
     image: 'https://i.imgur.com/XqDIzVh.png' ,
     title: 'Calculadora do Flamengo',
-    description: 'Descrição breve do projeto, destacando o problema que resolve e as tecnologias utilizadas.',
+    description: 'Uma calculadora web totalmente funcional com um design temático inspirado nas cores e na identidade visual do Flamengo. Desenvolvido com HTML, CSS e JavaScript puro, e usuário interativa, responsiva e focada na experiência do usuário.',
     tags: ['Html', 'Css', 'Javascript'],
+    link: 'https://calculadora-ashy-ten.vercel.app/'
     
   },
   {
-    image: 'https://picsum.photos/seed/project2/600/400',
-    title: 'Projeto 2',
-    description: 'Descrição breve do projeto, destacando o problema que resolve e as tecnologias utilizadas.',
-    tags: ['React', 'Material UI', 'Firebase'],
+    image: 'https://imgur.com/St2bQVd.png',
+    title: 'App De Notas',
+    description: 'Uma aplicação Full-Stack completa para gerenciamento de notas, permitindo ao usuário Criar, Ler, Atualizar e Deletar (CRUD) suas anotações de forma persistente. A arquitetura utiliza React com TypeScript no frontend para uma interface moderna e tipada, e um backend robusto com Node.js e Express, que serve uma API RESTful. Os dados são armazenados em um banco de dados PostgreSQL gerenciado pelo Supabase.',
+    tags: ['React', 'TypeScript', 'Node.js', 'Express', 'Tailwind CSS', 'Supabase'],
+    link: 'https://meu-app-de-notas.vercel.app/'
   },
   {
-    image: 'https://picsum.photos/seed/project3/600/400',
-    title: 'Projeto 3',
-    description: 'Descrição breve do projeto, destacando o problema que resolve e as tecnologias utilizadas.',
-    tags: ['JavaScript', 'HTML5', 'CSS3'],
+    image: 'https://imgur.com/IjPutl4.png',
+    title: 'Dev-Finder',
+    description: 'Uma ferramenta de busca que se integra em tempo real com a API pública do GitHub para fornecer um resumo visual de perfis de desenvolvedores. A aplicação foi desenvolvida utilizando um stack moderno com React, TypeScript e Tailwind CSS, com foco em uma arquitetura de componentes limpa e uma experiência de usuário fluida, gerenciando estados de carregamento e erro durante as requisições assíncronas.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'API REST', 'Vite'],
+    link: 'https://dev-finder-rosy.vercel.app/'
   },
 ];
 
@@ -85,7 +89,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: 'Email',
-    url: 'mailto:lsantos2152@gmail.com',
+    url: 'https://mail.google.com/mail/u/1/#inbox',
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
   },
 ];
