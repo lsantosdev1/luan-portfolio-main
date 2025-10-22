@@ -1,6 +1,6 @@
 # Portfólio Pessoal - Luan Santos
 
-!![Logo do Projeto](project/assets/favicon.png)
+!![Logo](project/assets/favicon.png)
 
 
 ## 📖 Sobre o Projeto
