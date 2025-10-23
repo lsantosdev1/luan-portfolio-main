@@ -13,7 +13,7 @@ const About: React.FC = () => {
               {/* era w-64 h-64 */}
               <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
               <img
-                src="../assets/luan.jpg"
+                src="../assets/luan.png"
                 alt="Luan Santos"
                 className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
               />
