@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-
+import fotoDePerfil from "../assets/fotoDePerfil.jpg"; 
+ 
 const About: React.FC = () => {
   return (
     <section id="sobre" className="py-20 bg-slate-100 dark:bg-black">
@@ -9,13 +10,11 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="relative w-80 h-80">
-              {" "}
-              {/* era w-64 h-64 */}
-              <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6"></div>
+              <div className="absolute inset-0 bg-green-500 rounded-full transform rotate-6 z-10"></div>
               <img
-                src="../assets/luan.png"
+                src={fotoDePerfil} 
                 alt="Luan Santos"
-                className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
+                className="absolute inset-0 z-20 w-full h-full object-cover rounded-full border-4 border-white dark:border-black shadow-lg"
               />
             </div>
           </div>
@@ -54,5 +53,4 @@ const About: React.FC = () => {
     </section>
   );
 };
-
 export default About;
