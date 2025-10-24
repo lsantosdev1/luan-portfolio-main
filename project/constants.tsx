@@ -62,7 +62,7 @@ export const PROJECTS = [
     link: 'https://meu-app-de-notas.vercel.app/'
   },
   {
-    image: 'https://imgur.com/IjPutl4.png',
+    image: 'https://imgur.com/69fhlBb.png',
     title: 'Dev-Finder',
     description: 'Uma ferramenta de busca que se integra em tempo real com a API pública do GitHub para fornecer um resumo visual de perfis de desenvolvedores. A aplicação foi desenvolvida utilizando um stack moderno com React, TypeScript e Tailwind CSS, com foco em uma arquitetura de componentes limpa e uma experiência de usuário fluida, gerenciando estados de carregamento e erro durante as requisições assíncronas.',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'API REST', 'Vite'],
